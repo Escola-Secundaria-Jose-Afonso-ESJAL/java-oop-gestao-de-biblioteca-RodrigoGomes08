@@ -22,4 +22,14 @@ class Livro {
     public int getAno() {
         return ano;
     }
+    
+    @Override
+    public String toString()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Titulo :").append(this.titulo).append("\n");
+        sb.append("Autor :").append(this.autor).append("\n");
+        sb.append("Ano :").append(this.ano).append("\n");
+        return sb.toString();
+    }
 }

@@ -36,3 +36,4 @@ Desenvolver a habilidade de trabalhar com estruturas de dados dinâmicas, como A
 Aplicar lógica de programação para criar validações e restrições no contexto de um sistema.
 Incentivar o uso de boas práticas, como separação de responsabilidades (Single Responsibility Principle) e organização de código.
 
++
