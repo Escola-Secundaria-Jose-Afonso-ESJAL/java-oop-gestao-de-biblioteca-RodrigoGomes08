@@ -12,6 +12,12 @@ public class Biblioteca {
     }
 
     public boolean adicionarLivro(Livro livro) {
+        for(Livro l : this.livros)
+        {
+            if(l.getTitulo() == livro.getTitulo()){
+                return false;
+            }
+        }
         if(this.livros.size() == MAX_LIVROS)
         {
             return false;
